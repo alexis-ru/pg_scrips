@@ -1,8 +1,8 @@
-yum install wget zip && wget https://edu.postgrespro.ru/demo-medium.zip && unzip demo-medium.zip && chown postgres:postgres /home/alex/demo-medium-20170815.sql
+yum install wget zip && wget https://edu.postgrespro.ru/demo-medium.zip && unzip demo-medium.zip && chown postgres:postgres /home/user/demo-medium-20170815.sql
 
 su - postgres && psql && create database demo; && \q && \q
 
-psql -U postgres -W -d demo < /home/alex/demo-medium-20170815.sql
+psql -U postgres -W -d demo < /home/user/demo-medium-20170815.sql
 
 su - postgres && psql && \l+ && \c demo && \dS+
 
