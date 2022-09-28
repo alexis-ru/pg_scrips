@@ -1,2 +1,3 @@
-# pg_scrips
-Postgres scripts
+Небольшой набор скриптов PG
+
+Скачал demo-базу с сайта Postgres
